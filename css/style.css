@@ -150,6 +150,7 @@ button {
 }
 
 .title {
+	font-family: 'dosisregular', sans-serif;
 	font-size: 1.2rem;
 	text-transform: uppercase;
 	color: #111;
@@ -235,8 +236,37 @@ button {
 .about-studio .row + .row {
 	margin-top: 100px;
 }
-.team-item-info span{
+.blockquote-text {
+	font-size: 1.6rem;
+	line-height: 2.53rem;
+	margin-bottom: 10px;
+}
+.blockquote-author {
+	font-family:'open_sansregular', sans-serif;
+	font-size: .73rem;
+	line-height: 2.53rem;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+.default-text {
+	font-size: 1rem;
+	line-height: 1.73rem;
+}
+.team-item-info span {
 	display: block;
+}
+.team-item-name,
+.team-item-role {
+	font-family:  'dosisregular', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+} 
+.team-item-name {
+	font-size: 1rem;
+	margin: 25px 0 10px;
+}
+.team-item-role {
+	font-size: .8rem;
 }
 /* ===== About studio end ===== */
 /* ===== Lets talk start ===== */
