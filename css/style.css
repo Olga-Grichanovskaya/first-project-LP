@@ -159,6 +159,7 @@ button {
 	margin-bottom: 75px;
 }
 .title.title-light {
+	font-family: 'dosislight', sans-serif;
 	letter-spacing: .3em;
 }
 .title.title-white {
@@ -281,6 +282,23 @@ button {
 	color: rgba(255, 255, 255, .7);
 }
 /* ===== Lets talk end ===== */
+/* ==== Why choose us start ==== */
+.advantage-icon {
+	font-size: 3.2rem;
+	color: #111;
+}
+.advantage-title {
+	font-family: 'dosisregular', sans-serif;
+	text-transform: uppercase;
+    font-size: .93rem;
+    letter-spacing: .4em;
+	margin: 33px 0;
+}
+.advantage-title + .default-text {
+	font-size: .93rem;
+	margin-bottom: 80px;
+}
+/* ==== Why choose us end ====  */
 /* Custom style end */
 
 
