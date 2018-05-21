@@ -34,6 +34,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	outline: none;
 }
 html {
 	font-size: 15px;
@@ -282,6 +283,37 @@ button {
 	font-size: .8rem;
 }
 /* ===== About studio end ===== */
+/* ==== Services start ==== */
+.default-section.services {
+	border-top: 1px solid #ececec;
+}
+.services-tab ul {
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+.services-tab ul li {
+	float: left;
+	width: 20%;
+	text-align: center;
+	color: #888;
+}
+.services-tab ul li.ui-state-active {
+	color: #111;
+}
+.services-tab ul li span {
+	display: block;
+	font-size: 3.2rem;
+	letter-spacing: .5em;
+	text-indent: .5em;
+}
+.services-tab ul li a span:last-child {
+	margin-top: 35px;
+	font-family:  'dosisregular', sans-serif;
+	font-size: .93rem;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+}
+/* ==== Services end ==== */
 /* ===== Lets talk start ===== */
 .lets-talk-wrapper {
 	padding-top: 140px;
