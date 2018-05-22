@@ -137,6 +137,9 @@ button {
 .default-section {
 	padding: 135px 0;
 }
+.small-section {
+	padding: 70px 0;
+}
 .btn {
 	font-family: 'open_sansregular', sans-serif;
 	line-height: 1.73rem;
@@ -153,7 +156,7 @@ button {
 .btn-large {
 	background: rgba(255, 255, 255, .8);
 	font-size: .93rem;
-	padding: 14px 40px;
+	padding: 7px 40px;
 	color: #111;
 }
 .btn-small {
@@ -329,7 +332,7 @@ button {
 /* ===== Lets talk end ===== */
 /* ==== Portfolio start ==== */
 .default-section.portfolio {
-	padding-bottom: 0;
+	padding-bottom: 4px;
 }
 .portfolio .default-text {
 	text-align: center;
@@ -348,7 +351,7 @@ button {
 	float: left;
 	text-transform: uppercase;
 	font-family: 'dosisregular', sans-serif;
-	font-size: 13px;
+	font-size: .86rem;
 	letter-spacing: .4em;
 	color: rgba(17, 17, 17, .5);
 }
@@ -364,7 +367,7 @@ button {
 .portfolio-item {
 	float: left;
 	width: 33,33%;
-	padding: 2px;
+	padding: 4px;
 }
 .portfolio-item img {
 	width: 100%;
@@ -374,6 +377,11 @@ button {
 	filter: grayscale(0%);
 }
 /* ==== Portfolio end ==== */
+/* ==== Creative works start ==== */
+.small-section .title {
+	margin-bottom: 20px;
+}
+/* ==== Creative works end ==== */
 /* ==== Why choose us start ==== */
 .advantage-icon {
 	font-size: 3.2rem;
