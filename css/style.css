@@ -340,15 +340,14 @@ button {
     margin: auto;
 }
 .portfolio ul {
-	overflow: hidden;
-	display: inline-block;
+	text-align: center;
 	margin: 75px 0 45px;
 }
 .portfolio-tabs {
-	text-align: center;
+	overflow: hidden;
 }
 .portfolio-tabs ul li {
-	float: left;
+	display: inline-block;
 	text-transform: uppercase;
 	font-family: 'dosisregular', sans-serif;
 	font-size: .86rem;
@@ -361,12 +360,9 @@ button {
 .portfolio-tabs ul li + li {
 	margin-left: 65px;
 }
-.tabs {
-	overflow: hidden;
-}
 .portfolio-item {
+	width: 33.33%;
 	float: left;
-	width: 33,33%;
 	padding: 4px;
 }
 .portfolio-item img {
@@ -399,6 +395,68 @@ button {
 	margin-bottom: 80px;
 }
 /* ==== Why choose us end ====  */
+/* ===== Reviews start ===== */
+.reviews-carousel {
+	padding: 140px 0;
+}
+.review-wrapper span {
+	font-size: 2.13rem;
+	color: #fff;
+}
+.reviews .title {
+	margin: 20px 0 45px;
+}
+.reviews .review-text {
+	font-size: 1.2rem;
+	line-height: 2rem;
+	color: rgba(255, 255, 255, .75);
+}
+.reviews .review-author {
+	font-family: 'open_sansregular', sans-serif;
+	font-size: .73rem;
+	line-height: 2.53rem;
+	color: rgba(255, 255, 255, .3);
+}
+.slick-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+.slick-arrow.slick-prev {
+	left: 0;
+}
+.slick-arrow.slick-next {
+	right: 0;
+}
+.slick-dots {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	line-height: 0;
+}
+.slick-dots li {
+	display: inline-block;
+	vertical-align: bottom;
+}
+.slick-dots li + li {
+	margin-left: 5px;
+}
+.slick-dots li button {
+	color: transparent;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	background-color: #ccc;
+}
+.slick-dots li.slick-active button {
+	background-color: transparent;
+	width: 9px;
+	height: 9px;
+}
+/* ===== Reviews end ===== */
 /* Custom style end */
 
 
