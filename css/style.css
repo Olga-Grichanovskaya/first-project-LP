@@ -226,12 +226,9 @@ button {
 	margin-left: -5px;
 }
 .inner-content {
-	display: inline;
-	max-width: 825px;
-	vertical-align: middle;
-}
-.inner-title {
 	display: inline-block;
+	max-width: 1000px;
+	vertical-align: middle;
 }
 .inner-title h1 {
 	font-family: 'dosisregular', sans-serif;
@@ -243,7 +240,7 @@ button {
 	text-indent: 1.7em;
 	margin-bottom: 100px;
 }
-.inner-title .inner-title-subtitle {
+.inner-title-subtitle {
 	color: rgba(254, 254, 254, .68);
 	font-size: 1.26rem;
 	font-weight: normal;
@@ -269,6 +266,9 @@ button {
 	font-size: 1rem;
 	line-height: 1.73rem;
 }
+.team-item-info {
+	margin-top: 25px;
+}
 .team-item-info span {
 	display: block;
 }
@@ -280,7 +280,7 @@ button {
 } 
 .team-item-name {
 	font-size: 1rem;
-	margin: 25px 0 10px;
+	margin-bottom: 10px;
 }
 .team-item-role {
 	font-size: .8rem;
@@ -322,6 +322,9 @@ button {
 	padding-top: 140px;
 	padding-bottom: 140px;
 }
+.lets-talk-wrapper .title {
+	margin-bottom: 25px;
+}
 .lets-talk-img {
 	margin-top: -32px;
 }
@@ -339,12 +342,12 @@ button {
     max-width: 770px;
     margin: auto;
 }
-.portfolio ul {
-	text-align: center;
-	margin: 75px 0 45px;
-}
 .portfolio-tabs {
 	overflow: hidden;
+}
+.portfolio-tabs ul {
+	text-align: center;
+	margin: 75px 0 45px;
 }
 .portfolio-tabs ul li {
 	display: inline-block;
