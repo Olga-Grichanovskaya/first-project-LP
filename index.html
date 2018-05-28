@@ -604,7 +604,16 @@
       <!-- /.default-section contacts -->
       <div class="map-container">
         <div id="map"></div>
-        <div class="on-map-block"></div>
+        <div class="on-map-block">
+          <div class="on-map-title">
+            <div class="rhomb-icon white-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <!-- /.rhomb-icon -->
+            <span class="on-map-text">Open the map<i class="fas fa-angle-down"></i></span>
+          </div>
+          <!-- / .on-map-title -->
+        </div>
       </div>
       <!-- /.map-container -->
     </div>
@@ -618,8 +627,12 @@
     <!-- jQuery UI lib -->
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <!-- Slick slider -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>    
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <!-- Google maps api -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQJ3qk4kYbCbaAmyks5XFzKT0jomyJZMs&callback=initMap"
+    async defer></script>
+    <!-- Google map init -->
+    <script src="js/google-maps.js"></script>   
     <!-- Init plugins -->
     <script src="js/init.js"></script>
   </body>
