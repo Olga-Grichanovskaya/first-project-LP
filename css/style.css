@@ -129,8 +129,8 @@ textarea {
 .text-center {
 	text-align: center;
 }
-.text-right {
-	text-align: right;
+.text-left {
+	text-align-last: left;
 }
 .bg-black {
 	background-color: #111;
@@ -171,9 +171,10 @@ textarea {
 	color: #111;
 }
 .btn-small {
-	background: rgba(255, 255, 255, .1);
+	/* background: rgba(255, 255, 255, .1); */
+	background: #e5e5e5;
 	font-size: 11px;
-	padding: 15px 9px;
+	padding: 0  9px;
 	color: #777;
 }
 .title {
@@ -529,6 +530,49 @@ textarea.form-control {
 	height: 9px;
 }
 /* ===== Reviews end ===== */
+/* ===== Latest news start ===== */
+.latest-news-title-wrapper {
+	margin-bottom: 80px;
+}
+.latest-news-title-wrapper .title {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.latest-news-title-wrapper a{
+	display: block;
+	float: right;
+	font-family: 'dosisregular', sans-serif;
+	font-size: 0.73rem;
+	line-height: 24px;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+	color: #999;
+}
+.news-title-block {
+	font-family:'dosisregular', sans-serif;
+	text-transform: uppercase;
+	margin: 15px 0;
+}
+.news-title {
+	font-size: 1rem;
+	letter-spacing: .2em;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.news-author, 
+.news-date {
+	font-size: .73rem;
+	letter-spacing: .4em;
+	color: #999;
+}
+.news-date {
+	padding-left: 4px;
+}
+.news-title-block + .default-text {
+	margin-bottom: 20px;
+}
+/* ===== Latest news end ===== */
 /* ===== Subscribe start ===== */
 .small-section.subscribe {
 	padding: 80px 0;
