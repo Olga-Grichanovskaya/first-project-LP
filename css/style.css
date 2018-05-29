@@ -212,6 +212,9 @@ textarea {
 .rhomb-icon > * {
 	transform: rotate(-45deg);
 }
+.rhomb-icon.transparent-icon a > * {
+	transform: rotate(-45deg);
+}
 .rhomb-icon > .fa-phone {
 	transform: rotate(45deg);
 }
@@ -222,6 +225,11 @@ textarea {
 .rhomb-icon.white-icon {
 	color: #222;
 	background-color: #fff;
+}
+.rhomb-icon.transparent-icon {
+	color: rgba(17, 17, 17, .75);
+	background-color: transparent;
+	border: 1px solid rgba(45, 45, 45, .75);
 }
 .form-control {
 	width: 100%;
@@ -629,6 +637,44 @@ textarea.form-control {
 	margin-top: 20px;
 }
 /* ===== Map end ===== */
+/* ===== Footer start ===== */
+#footer {
+	padding: 135px 0 60px;
+}
+.footer-social-nav {
+	margin: 20px 0 100px;
+}
+.footer-social-nav li + li {
+	margin-left: 13px;
+}
+.footer-social-nav li:hover {
+	background-color: #111;
+	color: #fff;
+	border: none;
+}
+.footer-text-block span {
+	display: block;
+}
+.copyright {
+	font-family: 'dosisregular', sans-serif;
+	text-transform: uppercase;
+	color: #111;
+	letter-spacing: .5em;
+	line-height: 1.6rem;
+	margin-bottom: 10px;
+}
+.copyright .fa-copyright {
+	margin-right: 8px;
+	color: #999;
+	font-size: .8rem;
+}
+.footer-text {
+	font-family: 'open_sansregular', sans-serif;
+	color: #999;
+	line-height: 1.6rem;
+	font-size: .73rem;
+}
+/* ===== Footer end ===== */
 /* Custom style end */
 
 
