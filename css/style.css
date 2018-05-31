@@ -89,115 +89,115 @@ textarea {
 	padding-right: 15px;
 }
 .col-1{
-	width: 8.333333333%
+	width: 8.333333333%;
 }
 .col-2{
-	width: 16.666666667%
+	width: 16.666666667%;
 }
 .col-3{
-	width: 25%
+	width: 25%;
 }
 .col-4{
-	width: 33.333333333%
+	width: 33.333333333%;
 }
 .col-5{
-	width: 41.666666667%
+	width: 41.666666667%;
 }
 .col-6{
-	width: 50%
+	width: 50%;
 }
 .col-7{
-	width: 58.333333333%
+	width: 58.333333333%;
 }
 .col-8{
-	width: 66.666666667%
+	width: 66.666666667%;
 }
 .col-9{
-	width: 75%
+	width: 75%;
 }
 .col-10{
-	width: 83.333333333%
+	width: 83.333333333%;
 }
 .col-11{
-	width: 91.666666667%
+	width: 91.666666667%;
 }
 .col-12{
-	width: 100%
+	width: 100%;
 }
 @media (max-width: 1200px) {
 	.col-lg-1{
-		width: 8.333333333%
+		width: 8.333333333%;
 	}
 	.col-lg-2{
-		width: 16.666666667%
+		width: 16.666666667%;
 	}
 	.col-lg-3{
-		width: 25%
+		width: 25%;
 	}
 	.col-lg-4{
-		width: 33.333333333%
+		width: 33.333333333%;
 	}
 	.col-lg-5{
-		width: 41.666666667%
+		width: 41.666666667%;
 	}
 	.col-lg-6{
-		width: 50%
+		width: 50%;
 	}
 	.col-lg-7{
-		width: 58.333333333%
+		width: 58.333333333%;
 	}
 	.col-lg-8{
-		width: 66.666666667%
+		width: 66.666666667%;
 	}
 	.col-lg-9{
-		width: 75%
+		width: 75%;
 	}
 	.col-lg-10{
-		width: 83.333333333%
+		width: 83.333333333%;
 	}
 	.col-lg-11{
-		width: 91.666666667%
+		width: 91.666666667%;
 	}
 	.col-lg-12{
-		width: 100%
+		width: 100%;
 	}
 }
 @media (max-width: 991px) {
 	.col-md-1{
-		width: 8.333333333%
+		width: 8.333333333%;
 	}
 	.col-md-2{
-		width: 16.666666667%
+		width: 16.666666667%;
 	}
 	.col-md-3{
-		width: 25%
+		width: 25%;
 	}
 	.col-md-4{
-		width: 33.333333333%
+		width: 33.333333333%;
 	}
 	.col-md-5{
-		width: 41.666666667%
+		width: 41.666666667%;
 	}
 	.col-md-6{
-		width: 50%
+		width: 50%;
 	}
 	.col-md-7{
-		width: 58.333333333%
+		width: 58.333333333%;
 	}
 	.col-md-8{
-		width: 66.666666667%
+		width: 66.666666667%;
 	}
 	.col-md-9{
-		width: 75%
+		width: 75%;
 	}
 	.col-md-10{
-		width: 83.333333333%
+		width: 83.333333333%;
 	}
 	.col-md-11{
-		width: 91.666666667%
+		width: 91.666666667%;
 	}
 	.col-md-12{
-		width: 100%
+		width: 100%;
 	}
 	.d-none-md{
 		display: none;
@@ -208,40 +208,40 @@ textarea {
 }
 @media (max-width: 767px) {
 	.col-sm-1{
-		width: 8.333333333%
+		width: 8.333333333%;
 	}
 	.col-sm-2{
-		width: 16.666666667%
+		width: 16.666666667%;
 	}
 	.col-sm-3{
-		width: 25%
+		width: 25%;
 	}
 	.col-sm-4{
-		width: 33.333333333%
+		width: 33.333333333%;
 	}
 	.col-sm-5{
-		width: 41.666666667%
+		width: 41.666666667%;
 	}
 	.col-sm-6{
-		width: 50%
+		width: 50%;
 	}
 	.col-sm-7{
-		width: 58.333333333%
+		width: 58.333333333%;
 	}
 	.col-sm-8{
-		width: 66.666666667%
+		width: 66.666666667%;
 	}
 	.col-sm-9{
-		width: 75%
+		width: 75%;
 	}
 	.col-sm-10{
-		width: 83.333333333%
+		width: 83.333333333%;
 	}
 	.col-sm-11{
-		width: 91.666666667%
+		width: 91.666666667%;
 	}
 	.col-sm-12{
-		width: 100%
+		width: 100%;
 	}
 	.d-none-sm{
 		display: none;
@@ -252,40 +252,40 @@ textarea {
 }
 @media (max-width: 576px) {
 	.col-xs-1{
-		width: 8.333333333%
+		width: 8.333333333%;
 	}
 	.col-xs-2{
-		width: 16.666666667%
+		width: 16.666666667%;
 	}
 	.col-xs-3{
-		width: 25%
+		width: 25%;
 	}
 	.col-xs-4{
-		width: 33.333333333%
+		width: 33.333333333%;
 	}
 	.col-xs-5{
-		width: 41.666666667%
+		width: 41.666666667%;
 	}
 	.col-xs-6{
-		width: 50%
+		width: 50%;
 	}
 	.col-xs-7{
-		width: 58.333333333%
+		width: 58.333333333%;
 	}
 	.col-xs-8{
-		width: 66.666666667%
+		width: 66.666666667%;
 	}
 	.col-xs-9{
-		width: 75%
+		width: 75%;
 	}
 	.col-xs-10{
-		width: 83.333333333%
+		width: 83.333333333%;
 	}
 	.col-xs-11{
-		width: 91.666666667%
+		width: 91.666666667%;
 	}
 	.col-xs-12{
-		width: 100%
+		width: 100%;
 	}
 	.d-none-xs{
 		display: none;
@@ -423,19 +423,22 @@ textarea.form-control {
 	font-size: .73rem;
 	color: #aaa;
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 	.default-section {
 		padding: 90px 0;	
 	}
-}
-@media (max-width: 767px) {
+} */
+/* @media (max-width: 767px) {
 	.default-section {
 		padding: 50px 0;	
 	}
 	.title {
 		margin-bottom: 45px;
 	}
-}
+	.form-control {
+		width: 100%;
+	}
+} */
 /* Default component end */
 /* Custom style start */
 /* ==== Header start ==== */
@@ -465,14 +468,14 @@ textarea.form-control {
 #header .header-nav li + li {
 	margin-left: 30px;
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 	#header .header-nav {
 		display: none;
 	}
 	.slicknav_menu {
 		display: block;
 	}
-}
+} */
 /* ==== Header end ==== */
 /* ==== Inner start ==== */
 .inner {
@@ -508,19 +511,19 @@ textarea.form-control {
 	font-size: 1.26rem;
 	font-weight: normal;
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 	.inner-title h1 {
 		margin-bottom: 50px;
 		letter-spacing: .7em;
 		text-indent: .7em;
 	}
-}
-@media (max-width: 767px) {
+} */
+/* @media (max-width: 767px) {
 	.inner {
 		height: auto;
 		padding: 160px 0 80px;
 	}
-}
+} */
 /* ==== Inner end ==== */
 /* ===== About studio start ===== */
 .about-studio .row + .row {
@@ -560,7 +563,7 @@ textarea.form-control {
 .team-item-role {
 	font-size: .8rem;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
 	.about-studio .row .col + .col .default-text {
 		margin-bottom: 20px;
 	}
@@ -570,7 +573,7 @@ textarea.form-control {
 	.about-studio .row .col + .col .team-item {
 		margin-top: 20px;
 	}
-}
+} */
 /* ===== About studio end ===== */
 /* ==== Services start ==== */
 .default-section.services {
@@ -602,12 +605,12 @@ textarea.form-control {
 	letter-spacing: .4em;
 	text-transform: uppercase;
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 	.services-tab ul li a span:last-child {
 		letter-spacing: .2em;
 	}
-}
-@media (max-width: 767px) {
+} */
+/* @media (max-width: 767px) {
 	.services-tab ul li {
 		width: 33.3333%;
 		margin-bottom: 20px;
@@ -618,12 +621,12 @@ textarea.form-control {
 	.services-tab div .row .col + .col .default-text {
 		margin-bottom: 20px;
 	}
-}
-@media (max-width: 576px) {
+} */
+/* @media (max-width: 576px) {
 	.services-tab ul li {
 		width: 50%;
 	}
-}
+} */
 /* ==== Services end ==== */
 /* ===== Lets talk start ===== */
 .lets-talk-wrapper {
@@ -640,16 +643,16 @@ textarea.form-control {
 	color: rgba(255, 255, 255, .7);
 	margin-bottom: 40px;
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 	.lets-talk-wrapper {
 		text-align: center;
 	}
-}
-@media (max-width: 767px) {
+} */
+/* @media (max-width: 767px) {
 	.lets-talk-wrapper {
 		padding: 100px 0;
 	}
-}
+} */
 /* ===== Lets talk end ===== */
 /* ==== Portfolio start ==== */
 .default-section.portfolio {
@@ -693,11 +696,11 @@ textarea.form-control {
 .portfolio-item:hover img {
 	filter: grayscale(0%);
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 	.portfolio-item {
 		width: 50%;
-}
-@media (max-width: 767px) {
+} */
+/* @media (max-width: 767px) {
 	.portfolio-tabs ul {
 		margin: 45px 0 25px;
 	}
@@ -710,7 +713,7 @@ textarea.form-control {
 	}
 	.portfolio-item {
 		width: 100%;
-}
+} */
 /* ==== Portfolio end ==== */
 /* ==== Creative works start ==== */
 .small-section .title {
@@ -733,13 +736,16 @@ textarea.form-control {
 	font-size: .93rem;
 	margin-bottom: 80px;
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 	.advantage-title + .default-text {
 		margin-bottom: 50px;
 	}
-}
+} */
 /* ==== Why choose us end ====  */
 /* ===== Reviews start ===== */
+.reviews {
+	overflow: hidden;
+}
 .reviews-carousel {
 	padding: 140px 0;
 }
@@ -765,15 +771,44 @@ textarea.form-control {
 }
 .slick-arrow {
 	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+	top: 0;
+	height: 100%;
+	width: 90px;
 	z-index: 1;
+	cursor: pointer;
 }
 .slick-arrow.slick-prev {
 	left: 0;
 }
 .slick-arrow.slick-next {
 	right: 0;
+}
+.slick-arrow .carousel-button {
+	width: 63px;
+	height: 63px;
+	background-color: #fff;
+	transform: rotate(-45deg);
+	position: absolute;
+	top: 50%;
+	margin-top: -31px;
+	margin-left: -32px;
+}
+.slick-arrow.slick-next .carousel-button {
+	right: 0;
+	margin-right: -32px;
+}
+.slick-arrow .carousel-button .fa {
+	position: absolute;
+	transform: rotate(45deg);
+	font-size: 10px;
+}
+.slick-arrow.slick-prev .carousel-button .fa {
+    bottom: 14px;
+    right: 17px;
+}
+.slick-arrow.slick-next .carousel-button .fa {
+    top: 14px;
+    left: 17px;	
 }
 .slick-dots {
 	position: absolute;
@@ -802,16 +837,16 @@ textarea.form-control {
 	width: 9px;
 	height: 9px;
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 	.review-text {
 		padding: 0 40px;
 	}
-}
-@media (max-width: 767px) {
+} */
+/* @media (max-width: 767px) {
 	.review-text {
 		padding: 0 30px;
 	}
-}
+} */
 /* ===== Reviews end ===== */
 /* ===== Latest news start ===== */
 .latest-news-title-wrapper {
@@ -858,7 +893,7 @@ textarea.form-control {
 .news-title-block + .default-text {
 	margin-bottom: 20px;
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 	.news-item {
 		padding-top: 30px;
 		margin-bottom: 30px;
@@ -866,12 +901,12 @@ textarea.form-control {
 	.latest-news .row .col + .col .news-item {
 		border-top: 2px solid #000;
 	}
-} 
-@media (max-width: 767px) {
+}  */
+/* @media (max-width: 767px) {
 	.latest-news-title-wrapper {
 		margin-bottom: 40px;
 	}
-}
+} */
 /* ===== Latest news end ===== */
 /* ===== Subscribe start ===== */
 .small-section.subscribe {
@@ -889,12 +924,12 @@ textarea.form-control {
 .subscribe-contact-form .info-text {
 	margin-left: 4px;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
 	.subscribe-contact-form .form-control {
 		max-width: 100%;
 		margin-bottom: 20px;
 	}
-}
+} */
 /* ===== Subscribe end ===== */
 /* ===== Contacts start ===== */
 .contact-item .rhomb-icon{
@@ -948,7 +983,7 @@ textarea.form-control {
 .form-submit button {
 	float: right;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
 	.form-col {
 		width: 100%;
 	}
@@ -958,7 +993,7 @@ textarea.form-control {
 	.contacts .row .col .row .col + .col .contact-item {
 		margin-top: 20px;
 	}
-}
+} */
 /* ===== Contacts end ===== */
 /* ===== Map start ===== */
 .map-container {
@@ -1034,10 +1069,10 @@ textarea.form-control {
 	line-height: 1.6rem;
 	font-size: .73rem;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
 	#footer {
 		padding: 100px 0 30px;
 	}
-}
+} */
 /* ===== Footer end ===== */
 /* Custom style end */
