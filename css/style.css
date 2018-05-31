@@ -424,7 +424,17 @@ textarea.form-control {
 	color: #aaa;
 }
 @media (max-width: 991px) {
-	padding: 90px 0;
+	.default-section {
+		padding: 90px 0;	
+	}
+}
+@media (max-width: 767px) {
+	.default-section {
+		padding: 50px 0;	
+	}
+	.title {
+		margin-bottom: 45px;
+	}
 }
 /* Default component end */
 /* Custom style start */
@@ -504,7 +514,12 @@ textarea.form-control {
 		letter-spacing: .7em;
 		text-indent: .7em;
 	}
-
+}
+@media (max-width: 767px) {
+	.inner {
+		height: auto;
+		padding: 160px 0 80px;
+	}
 }
 /* ==== Inner end ==== */
 /* ===== About studio start ===== */
@@ -522,6 +537,9 @@ textarea.form-control {
 	line-height: 2.53rem;
 	letter-spacing: .2em;
 	text-transform: uppercase;
+}
+.team-item-photo img {
+	width: 100%;
 }
 .team-item-info {
 	margin-top: 25px;
@@ -541,6 +559,17 @@ textarea.form-control {
 }
 .team-item-role {
 	font-size: .8rem;
+}
+@media (max-width: 767px) {
+	.about-studio .row .col + .col .default-text {
+		margin-bottom: 20px;
+	}
+	.about-studio .row + .row {
+		margin-top: 50px;
+	}
+	.about-studio .row .col + .col .team-item {
+		margin-top: 20px;
+	}
 }
 /* ===== About studio end ===== */
 /* ==== Services start ==== */
@@ -578,6 +607,23 @@ textarea.form-control {
 		letter-spacing: .2em;
 	}
 }
+@media (max-width: 767px) {
+	.services-tab ul li {
+		width: 33.3333%;
+		margin-bottom: 20px;
+	}
+	.services-tab ul {
+		margin-bottom: 50px;
+	}
+	.services-tab div .row .col + .col .default-text {
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 576px) {
+	.services-tab ul li {
+		width: 50%;
+	}
+}
 /* ==== Services end ==== */
 /* ===== Lets talk start ===== */
 .lets-talk-wrapper {
@@ -597,6 +643,11 @@ textarea.form-control {
 @media (max-width: 991px) {
 	.lets-talk-wrapper {
 		text-align: center;
+	}
+}
+@media (max-width: 767px) {
+	.lets-talk-wrapper {
+		padding: 100px 0;
 	}
 }
 /* ===== Lets talk end ===== */
@@ -645,6 +696,20 @@ textarea.form-control {
 @media (max-width: 991px) {
 	.portfolio-item {
 		width: 50%;
+}
+@media (max-width: 767px) {
+	.portfolio-tabs ul {
+		margin: 45px 0 25px;
+	}
+	.portfolio-tabs ul li {
+		display: block;
+		margin-bottom: 15px;
+	}
+	.portfolio-tabs ul li + li {
+		margin-left: 0;
+	}
+	.portfolio-item {
+		width: 100%;
 }
 /* ==== Portfolio end ==== */
 /* ==== Creative works start ==== */
@@ -738,8 +803,13 @@ textarea.form-control {
 	height: 9px;
 }
 @media (max-width: 991px) {
-	.review-wrapper {
+	.review-text {
 		padding: 0 40px;
+	}
+}
+@media (max-width: 767px) {
+	.review-text {
+		padding: 0 30px;
 	}
 }
 /* ===== Reviews end ===== */
@@ -797,6 +867,11 @@ textarea.form-control {
 		border-top: 2px solid #000;
 	}
 } 
+@media (max-width: 767px) {
+	.latest-news-title-wrapper {
+		margin-bottom: 40px;
+	}
+}
 /* ===== Latest news end ===== */
 /* ===== Subscribe start ===== */
 .small-section.subscribe {
@@ -813,6 +888,12 @@ textarea.form-control {
 }
 .subscribe-contact-form .info-text {
 	margin-left: 4px;
+}
+@media (max-width: 767px) {
+	.subscribe-contact-form .form-control {
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
 }
 /* ===== Subscribe end ===== */
 /* ===== Contacts start ===== */
@@ -867,7 +948,17 @@ textarea.form-control {
 .form-submit button {
 	float: right;
 }
-
+@media (max-width: 767px) {
+	.form-col {
+		width: 100%;
+	}
+	.contact-item {
+		text-align: center;
+	}
+	.contacts .row .col .row .col + .col .contact-item {
+		margin-top: 20px;
+	}
+}
 /* ===== Contacts end ===== */
 /* ===== Map start ===== */
 .map-container {
@@ -943,6 +1034,10 @@ textarea.form-control {
 	line-height: 1.6rem;
 	font-size: .73rem;
 }
+@media (max-width: 767px) {
+	#footer {
+		padding: 100px 0 30px;
+	}
+}
 /* ===== Footer end ===== */
 /* Custom style end */
-}
