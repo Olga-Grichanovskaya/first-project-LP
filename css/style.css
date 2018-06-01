@@ -534,6 +534,15 @@ textarea.form-control {
 	font-size: 1.26rem;
 	font-weight: normal;
 }
+.inner .rhomb-icon {
+	position: absolute;
+    bottom: 35px;
+    left: 50%;
+}
+.inner .rhomb-icon .fas{
+	transform: rotate(-45deg);
+	font-size: 1rem;
+}
 .animate-opacity {
 	opacity: 0;
 	animation: opacity .5s ease-in .5s forwards;
@@ -1170,6 +1179,11 @@ textarea.form-control {
 	color: #999;
 	line-height: 1.6rem;
 	font-size: .73rem;
+}
+#footer .up-to-top {
+    position: fixed;
+    bottom: 30px;
+	right: 30px;
 }
 /* @media (max-width: 767px) {
 	#footer {
