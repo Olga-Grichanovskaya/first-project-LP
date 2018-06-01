@@ -327,6 +327,7 @@ textarea {
 	letter-spacing: .2em;
 	text-transform: uppercase;
 	border-radius: 2px;
+	border: 1px solid transparent;
 }
 .btn-default {
 	background: rgba(0, 0, 0, .8);
@@ -339,6 +340,13 @@ textarea {
 	font-size: .93rem;
 	padding: 7px 40px;
 	color: #111;
+	transition: all .2s ease-in 1s;
+	/* transition: border .2s ease-in, background-color .2s ease-in .5s;   вариант */
+}
+.btn-large:hover {
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
 }
 .btn-small {
 	/* background: rgba(255, 255, 255, .1); */
@@ -468,14 +476,29 @@ textarea.form-control {
 #header .header-nav li + li {
 	margin-left: 30px;
 }
-/* @media (max-width: 991px) {
+.animate-scale {
+	transform: scale(0);
+	animation: scale .5s ease-in 1s forwards;
+}
+@keyframes scale {
+	0% {
+		transform: scale(0);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+@media (max-width: 991px) {
 	#header .header-nav {
 		display: none;
 	}
 	.slicknav_menu {
 		display: block;
 	}
-} */
+}
 /* ==== Header end ==== */
 /* ==== Inner start ==== */
 .inner {
@@ -511,13 +534,25 @@ textarea.form-control {
 	font-size: 1.26rem;
 	font-weight: normal;
 }
-/* @media (max-width: 991px) {
+.animate-opacity {
+	opacity: 0;
+	animation: opacity .5s ease-in .5s forwards;
+}
+@keyframes opacity {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@media (max-width: 991px) {
 	.inner-title h1 {
 		margin-bottom: 50px;
 		letter-spacing: .7em;
 		text-indent: .7em;
 	}
-} */
+}
 /* @media (max-width: 767px) {
 	.inner {
 		height: auto;
@@ -540,6 +575,73 @@ textarea.form-control {
 	line-height: 2.53rem;
 	letter-spacing: .2em;
 	text-transform: uppercase;
+}
+.team-item-photo {
+	line-height: 0;
+	height: 450px;
+	position: relative;
+	perspective: 2000px;
+}
+.team-item-photo:hover .team-item-front {
+	transform: rotateY(180deg);
+}
+.team-item-photo:hover .team-item-skills {
+	transform: rotateY(360deg);
+}
+.team-item-skills {
+	background-color: #000;
+	transform: rotateY(180deg);
+	padding: 35px;
+}
+.item-skills-title {
+	font-family: 'dosisregular', sans-serif;
+	font-size: 1.2rem;
+	line-height: 2.53rem;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.skills-text {
+	font-family: 'open_sansregular', sans-serif;
+	font-size: .86rem;
+	line-height: 1.4rem;
+	color: rgba(255, 255, 255, .5);
+	margin-bottom: 40px;
+}
+.container-for-flip {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	backface-visibility: hidden;
+	transition:  all .8s ease;
+}
+.progress-bar {
+	background-color: rgba(54, 54, 54, .9);
+	height: 12px;
+	width: 100%;
+	position: relative;
+	transition: all .2s linear;
+}
+.skills-list .skills-list-item + .skills-list-item {
+	margin-top: 15px;
+}
+.skills-list .skills-list-item span {
+	font-family: 'open_sansregular', sans-serif;
+	font-size: .73rem;
+	line-height: 1.7rem;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, .9);
+}
+.progress {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-color: rgba(205, 205, 205, .9);
 }
 .team-item-photo img {
 	width: 100%;
