@@ -1,9 +1,16 @@
 const header = $('#header'); // находим элемент
+const up = $('.up-to-top'); // находим элемент
 const windowHeight = $(window).height(); // узнаем высоту экран
 const headerHeight = header.outerHeight(); // узнаем высоту шапки
 
 function onScroll(e) {
     let pos = $(window).scrollTop(); // определяем позицию скрола 
+
+    if (pos > 300) {  //если скрол больше 300пикс, то появляется блок "наверх", иначе исчезает
+        up.show();
+    }else{
+        up.hide();
+    }
 
     if (pos > headerHeight + 100) { // если проскролели больше высоты шапки +100пикс
         header.css({
