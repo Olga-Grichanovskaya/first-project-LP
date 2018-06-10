@@ -80,7 +80,7 @@
   font-size: 16px;
   box-sizing: border-box;
   /* background: #4c4c4c; */
-  padding: 5px; 
+  /* padding: 5px;  */
   float: right;
   display: none;
 }
@@ -110,7 +110,12 @@
   font-size: 0.875em;
   list-style: none;
   overflow: hidden;
-
+  background: rgb(0, 0, 0);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
   .slicknav_nav ul {
     list-style: none;
